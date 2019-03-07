@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Signup</title>
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	</head>
+	<style type="text/css">
+		.form{
+				margin-left: 500px;
+				margin-top: 95px;
+			background: #ffeec8d9;
+			display: inline-block;
+			width: 490px;
+			height: 450px;
+			box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+			
+		}
+		.form_data{
+			margin-left: 100px;
+		}
+		input[type="tel"],input[type="email"],input[type="password"]{
+				height: 50px;
+				width: 298px;
+				margin-top: 16px;
+				border: 0;
+				border-radius: 12px;
+				padding-left: 15px;
+
+		}
+		input[type="checkbox"]{
+		}
+		#Signup{
+				width: 130px;
+				height: 38px;
+				margin-top: 25px;
+				margin-right: 5px;
+			}
+		#Login{
+				width: 130px;
+				height: 38px;
+				margin-top: 25px;
+				margin-right: 5px;
+				background: white;
+				color: #ac2925;
+		}
+		#Login:hover{
+			background: #ac2925;;
+			color: white;
+		}
+	</style>
+	<body>
+		<div class="form">
+			<div class="form_data">
+				<input type="tel" maxlength="8" name="Roll" placeholder="Enter your Roll no." style="margin-top:65px;"><br>
+				<input type="email" name="Email" placeholder="Enter Email"><br>
+				<input type="password" name="password" placeholder="Enter password"><br>
+				<input type="password" name="Confirm_password" placeholder="Enter password again"><br>
+				<input type="checkbox" name="remember me"><label>remember me</label><br>
+				<div class="btn btn-danger" id="Signup">Signup</div>
+				<div class="btn btn-danger" id="Login">Login</div>
+			</div>
+		</div>
+	</body>
+</html>
